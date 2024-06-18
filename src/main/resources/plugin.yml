@@ -1,0 +1,13 @@
+name: SimpleSB
+version: '${project.version}'
+main: me.idroom1.simplesb.SimpleSB
+api-version: '1.20'
+commands:
+  sb:
+    description: Toggles the scoreboard or reloads the config
+    usage: /<command> [reload]
+    permission: simplesb.admin
+permissions:
+  simplesb.admin:
+    description: Allows the player to use SimpleSB commands
+    default: op
